@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "description": "史料档案数据。source_id 为唯一编号。verification_status 仅允许三种取值：已核验 / 待核验 / 存在争议。",
+    "last_updated": "2026-10-22",
+    "verification_note": "'已核验'表示本项目作者于 2026-10-22 通过网络实际访问该链接并阅读内容，确认其支持 listed 的历史陈述。未实际访问或无法在线核验的资料一律标为'待核验'。"
+  },
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "四川：彝海结盟过凉山 勇士飞夺泸定桥",
+      "publisher": "人民网党史频道（'再说长征'系列采访报道）",
+      "source_url": "https://dangshi.people.com.cn/n1/2016/1010/c85037-28766291.html",
+      "source_type": "文献",
+      "publication_date": "2016年10月",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "1935年5月25日红军在安顺场强渡大渡河，仅找到几条小船，大部队渡河需约一个月",
+        "红四团28日拂晓接到29日前夺取泸定桥的命令，需在24小时内赶到120公里外",
+        "守敌拆除桥板，只剩13根铁链",
+        "红四团从二连抽出22名党员和积极分子组成夺桥突击队",
+        "红军主力渡过大渡河，粉碎了蒋介石歼灭红军于大渡河以南的图谋"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "新闻媒体公开报道，本项目仅作引用与链接，未转载全文；引用内容版权归人民日报社/人民网所有",
+      "notes": "2026-10-22 实际访问并阅读全文。文内含纪念馆讲解员口述与课文《飞夺泸定桥》引文。"
+    },
+    {
+      "source_id": "S02",
+      "title": "泸定桥头忆红军（壮丽70年 奋斗新时代·记者再走长征路）",
+      "publisher": "人民网政治频道（人民日报记者邝西曦）",
+      "source_url": "https://politics.people.com.cn/n1/2019/0729/c1001-31260300.html",
+      "source_type": "文献",
+      "publication_date": "2019年7月29日",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "1935年5月26日中革军委作出沿大渡河两岸分兵北进、迅速夺取泸定桥的决定",
+        "28日红四团接到提前至29日夺桥的命令时距泸定桥尚有240里",
+        "红四团不做饭不睡觉、点火把夜行军、按俘虏提供的号谱联络等行军细节",
+        "1935年5月29日清晨红四团占领西桥头",
+        "夺桥战斗时间、22勇士匍匐攀爬、敌人在东桥头放火等战斗经过",
+        "毛泽东诗句'大渡桥横铁索寒'与聂荣臻碑文首句"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "新闻媒体公开报道，仅引用与链接；版权归人民日报社/人民网所有",
+      "notes": "2026-10-22 实际访问。含四川省委党史研究室专家宋键、龚自德引述与当地见证人后代口述，是本项目战斗经过细节的主要依据。"
+    },
+    {
+      "source_id": "S03",
+      "title": "长征路上的红色路标",
+      "publisher": "人民网党史频道（党史学习教育官网转载，解放军报记者报道）",
+      "source_url": "https://dangshi.people.com.cn/n1/2016/1021/c85037-28796934.html",
+      "source_type": "文献",
+      "publication_date": "2016年10月21日",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "1935年5月29日红一军团第二师第四团22名勇士攀着13条铁链飞夺泸定桥",
+        "22名勇士全部是共产党员和入党积极分子",
+        "红军飞夺泸定桥纪念碑公园大道两旁屹立22根花岗岩石柱，代表22位夺桥勇士",
+        "绝大部分勇士没有留下姓名"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "新闻媒体公开报道，仅引用与链接",
+      "notes": "2026-10-22 实际访问。纪念碑'5·29'造型、邓小平题写碑名等亦见此报道。"
+    },
+    {
+      "source_id": "S04",
+      "title": "站立在泸定桥头",
+      "publisher": "人民网军事频道",
+      "source_url": "https://military.people.com.cn/n1/2026/1020/c1011-40818091.html",
+      "source_type": "文献",
+      "publication_date": "2026年10月20日",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "1935年5月24日中央红军到达大渡河安顺场",
+        "5月27日凌晨杨成武接到任务，原令三日赶到，全程320里，第一天走约80里",
+        "5月28日凌晨'万万火急'命令：限左路军于明天夺取泸定桥，余下240里须一昼夜走完",
+        "杨成武回忆文章对行军艰苦程度的描述",
+        "红军向当地群众借门板、床板作为铺桥材料；敌军放火烧桥未果，红军胜利夺取泸定桥"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "新闻媒体公开报道，仅引用与链接",
+      "notes": "2026-10-22 实际访问。该文与 S02 在'320里全程/240里最后冲刺'的表述上相互印证。"
+    },
+    {
+      "source_id": "S05",
+      "title": "红军飞夺泸定桥纪念馆官网：参观指南",
+      "publisher": "红军飞夺泸定桥纪念馆（官方网站）",
+      "source_url": "http://www.hjfdldqjng.com/index.php?c=category&id=23",
+      "source_type": "研究资料",
+      "publication_date": "官网持续更新（访问时内容）",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "红军飞夺泸定桥纪念馆位于四川省甘孜藏族自治州泸定县，免费向公众开放",
+        "纪念馆主展厅分为'红军强渡大渡河''昼夜行军二百四''泸定桥上的激战'等部分"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "官方机构公开信息，仅引用与链接",
+      "notes": "2026-10-22 实际访问。该网址为纪念馆官网参观指南页；展览分部名称可作为展厅叙事结构参考。"
+    },
+    {
+      "source_id": "S06",
+      "title": "红军飞夺泸定桥纪念馆（全国博物馆年度报告信息系统条目）",
+      "publisher": "国家文物局·全国博物馆年度报告信息系统",
+      "source_url": "http://nb.ncha.gov.cn/museumdetail.html?msg=cc4da3822bdd402782c6b3757d3915ef&nianfen=2021",
+      "source_type": "研究资料",
+      "publication_date": "2021年度报告",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "红军飞夺泸定桥纪念馆为文化文物系统国有博物馆，隶属泸定县，免费开放",
+        "2001年被中宣部评为全国爱国主义教育示范基地",
+        "馆藏珍贵文物86件（套），藏品总数610件（套）"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "政府公开信息系统数据，仅引用与链接",
+      "notes": "2026-10-22 实际访问。用于确认纪念馆机构属性与地位，避免本作品对馆藏内容作超出此范围的具体断言。"
+    },
+    {
+      "source_id": "S07",
+      "title": "红军飞夺泸定桥纪念碑及纪念馆（特色资源介绍）",
+      "publisher": "四川长征干部学院（四川省委党校系统网站）",
+      "source_url": "http://scczgbxy.scge.gov.cn/html/website/scczgbxy/sichuanchangzhengganbuxueyuan/ganziludinqiaofenyuankongjian/kongjianneirong/gzteseziyuan/1639185290702159874.html",
+      "source_type": "研究资料",
+      "publication_date": "机构网站资料（访问时内容）",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "1985年3月邓小平为'红军飞夺泸定桥纪念碑'题写碑名，聂荣臻撰写碑文",
+        "纪念碑公园内22根石柱纪念22位夺桥勇士",
+        "纪念馆建筑寓意'十三根光秃秃的铁链托起一个共和国'"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "官方机构公开信息，仅引用与链接",
+      "notes": "2026-10-22 实际访问。与 S03 关于22根石柱的表述相互印证。"
+    },
+    {
+      "source_id": "S08",
+      "title": "泸定桥桥体基本形制（康熙年间建成、13根铁链、跨度等）",
+      "publisher": "待补充：拟采用泸定县地方志或文物保护单位公开资料",
+      "source_url": "",
+      "source_type": "文献",
+      "publication_date": "",
+      "accessed_date": "",
+      "supported_claims": [
+        "泸定桥建于清康熙年间，由13根铁链构成（支撑'时间轴 E07'中桥体结构表述）"
+      ],
+      "verification_status": "待核验",
+      "rights_status": "未确定，待选定正式来源后补充",
+      "notes": "本作品暂未找到可直接引用的权威在线来源，故桥体历史沿革未在正文中详细展开；相关页面均标注'待核验'。不得虚构档案编号或馆藏号。"
+    },
+    {
+      "source_id": "S09",
+      "title": "杨成武：《忆长征》（回忆录）",
+      "publisher": "解放军文艺出版社（出版信息待核验）",
+      "source_url": "",
+      "source_type": "文献",
+      "publication_date": "待核验",
+      "accessed_date": "",
+      "supported_claims": [
+        "红四团政委杨成武关于昼夜行军与夺桥战斗的第一手回忆（人民网 S04 报道中有转述）"
+      ],
+      "verification_status": "待核验",
+      "rights_status": "出版物版权，本项目不复制原文，仅通过新闻转述间接引用",
+      "notes": "回忆录具体版次、出版年份未经实物核验，标注待核验。当前所有引述均经由 S04 的公开转述，不直接引用原文。"
+    },
+    {
+      "source_id": "S10",
+      "title": "本项目视觉素材说明：无历史照片",
+      "publisher": "本项目自建",
+      "source_url": "",
+      "source_type": "研究资料",
+      "publication_date": "2026-10-22",
+      "accessed_date": "2026-10-22",
+      "supported_claims": [
+        "本项目未使用任何历史照片；页面图像均为自绘矢量示意图（SVG），明确标注'示意图'性质"
+      ],
+      "verification_status": "已核验",
+      "rights_status": "本项目自制，随项目发布",
+      "notes": "遵守'不使用来源不明历史图片'的规则：所有视觉素材为代码绘制的示意图，可追溯、无版权风险。"
+    }
+  ]
+}

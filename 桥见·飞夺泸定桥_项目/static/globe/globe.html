@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;height:100%;background:radial-gradient(circle at 50% 38%,#191410,#0b0908);
+    font-family:"PingFang SC","Microsoft YaHei",sans-serif;overflow:hidden}
+  /* #globe {
+  width: 100%;
+  height: 586px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#globe canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+} */
+
+
+#globe {
+  position: relative;
+  width: 100%;
+  height: 586px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#globe canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+
+  #tip{position:absolute;left:20px;top:18px;background:rgba(253,246,236,.94);color:#2b2723;
+    padding:5px 14px;border-radius:999px;font-size:13px;opacity:0;transition:.18s;pointer-events:none}
+  #tip.on{opacity:1}
+  #tip b{letter-spacing:.06em}
+  #tip i{margin-left:8px;color:#8c1c13;font-style:normal;font-size:12px}
+  #gl{position:absolute;right:16px;bottom:12px;color:#8f8474;font-size:12px;letter-spacing:.08em}
+  #legend{position:absolute;left:16px;bottom:12px;color:#b9ab93;font-size:12px;line-height:1.9}
+  #legend .d{display:inline-block;width:8px;height:8px;border-radius:50%;margin:0 5px 0 12px;vertical-align:middle}
+  #legend .d:first-child{margin-left:0}
+  .g-fail{color:#ddd;font-size:14px;padding:40px;line-height:2}
+</style>
+</head>
+<body>
+<div id="globe"></div>
+<div id="tip"></div>
+<div id="legend">
+  <span class="d" style="background:#e8b45f"></span>途经节点
+  <span class="d" style="background:#ffd98a"></span>泸定桥
+  <span class="d" style="background:#c9432f"></span>遵义会议
+  <span class="d" style="background:#9db8a8"></span>起点 / 终点
+</div>
+<div id="gl">示意性三维地球 · 拖拽旋转 · 滚轮缩放 · 悬停查看节点</div>
+<script type="module" src="./globe.js"></script>
+</body>
+</html>

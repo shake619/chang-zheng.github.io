@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;height:100%;background:#0d1a20;overflow:hidden;
+    font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+  /* #stage{width:100vw;height:100vh;position:relative} */
+  #stage {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+  #tip{position:absolute;left:50%;top:18px;transform:translateX(-50%);
+    background:rgba(253,246,236,.94);color:#2b2723;padding:5px 16px;border-radius:999px;
+    font-size:13px;opacity:0;transition:.18s;pointer-events:none;white-space:nowrap}
+  #tip.on{opacity:1}
+  #tip b{letter-spacing:.05em}
+  #tip i{margin-left:8px;color:#8c1c13;font-style:normal;font-size:12px}
+  #card{position:absolute;right:18px;top:18px;width:290px;background:rgba(20,26,24,.88);
+    border:1px solid rgba(185,138,47,.45);border-radius:12px;padding:16px 18px;
+    color:#efe6d5;font-size:13px;line-height:1.9;backdrop-filter:blur(6px);
+    opacity:0;transform:translateY(-6px);transition:.22s;pointer-events:none}
+  #card.on{opacity:1;transform:none}
+  #card h4{margin:0 0 8px;color:#e8b45f;font-size:14px;letter-spacing:.08em}
+  #hint{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);
+    color:#8fa5ad;font-size:12px;letter-spacing:.1em;white-space:nowrap}
+  #mark{position:absolute;left:16px;bottom:12px;color:#6e7f86;font-size:11px;max-width:46%}
+  .b-fail{color:#ddd;font-size:14px;padding:40px;line-height:2}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="tip"></div>
+<div id="card"><h4 id="card-title"></h4><div id="card-body"></div></div>
+<div id="hint">左键拖拽环视 · 滚轮缩放 · 悬停高亮铁索 · 点击查看说明</div>
+<div id="mark">※ 三维艺术化复原示意（程序化建模），仅表达泸定桥结构意象，<br>
+不作为历史事实证据；铁索数量"13根"为已核验史实。</div>
+<script type="module" src="./bridge.js"></script>
+</body>
+</html>
